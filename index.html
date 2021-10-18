@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8' />
+        <script> 
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAujyESw7kpE_szsaN_KEscX4L-YhgMBkY&libraries=places&callback=initMap"
+        </script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css' rel='stylesheet' />
+        <link rel='stylesheet' href='./assets/css/style.css' />
+
+        <title>DiscRound</title>
+    </head>
+    <body>
+        <header>
+            <h1>DiscRound</h1>
+        </header>
+        <section id='content'>
+            <div id='intro'>
+                <h2>Let's rip em!</h2>
+                <p>Here you will find disc golf courses by state/city</p>
+            </div>
+            <div id='photo-display'>
+                <div>
+                    <h4 id='estabrook'>Estabrook</h4>
+                    <div id='map'></div>
+                    <button id="btn">Learn More</button> 
+                </div>
+                <div>
+                    <img src='./assets/images/default-image.jpg' width='200' height='150'/>
+                    <h4>Brown Deer</h4>
+                </div>
+                <div>
+                    <img src='./assets/images/default-image.jpg' width='200' height='150'/>
+                    <h5>Dineen</h5>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <ul>
+                <li>Created by: Peter Stenger</li>
+                <li>Github</li>
+                <li>LinkedIn</li>
+            </ul>
+        </footer>
+        <script src='./assets/js/home.js'></script>
+    </body>
+</html>
